@@ -1,0 +1,12 @@
+{
+  "name": "worklog",
+  "type": "SQL",
+  "subType": "POSTGRESQL",
+  "properties": {
+    "host": "paralelo.besysoft.com",
+    "port": "15434",
+    "dataBaseName": "bootcampdbgpc?currentSchema=prueba",
+    "username": "bootcampgpc",
+    "password": "boot1234"
+  }
+}
