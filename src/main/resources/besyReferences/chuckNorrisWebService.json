@@ -3,7 +3,7 @@
   "type": "WEB_SERVICE",
   "subType": "REST",
   "properties": {
-    "protocol": "http",
+    "protocol": "https",
     "host": "api.chucknorris.io",
     "path": "jokes/random"
   }

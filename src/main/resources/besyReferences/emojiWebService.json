@@ -1,0 +1,10 @@
+{
+  "name": "emojiWebService",
+  "type": "WEB_SERVICE",
+  "subType": "REST",
+  "properties": {
+    "protocol": "https",
+    "host": "api.api-ninjas.com",
+    "path": "v1/emoji?name=slightly%20smiling%20face"
+  }
+}
