@@ -2,6 +2,7 @@ package com.asj.besyTest.controllers;
 
 import com.asj.besyTest.model.entities.ChuckNorrisJoke;
 import com.asj.besyTest.model.entities.Emoji;
+import com.asj.besyTest.model.entities.Quote;
 import com.asj.besyTest.services.JokesService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
@@ -24,7 +25,11 @@ public class JokesController {
 
     @GetMapping("/emojis")
     public ResponseEntity<Emoji> getEmoji() {
-
         return ResponseEntity.status(HttpStatus.OK).body(jokesService.getEmoji());
+    }
+
+    @GetMapping("/quotes")
+    public ResponseEntity<Quote> getQuote() {
+        return ResponseEntity.status(HttpStatus.OK).body(jokesService.getQuote());
     }
 }

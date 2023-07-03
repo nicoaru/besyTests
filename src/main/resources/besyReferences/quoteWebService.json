@@ -1,0 +1,10 @@
+{
+  "name": "quoteWebService",
+  "type": "WEB_SERVICE",
+  "subType": "REST",
+  "properties": {
+    "protocol": "https",
+    "host": "api.api-ninjas.com",
+    "path": "v1/quotes?category=happiness"
+  }
+}
